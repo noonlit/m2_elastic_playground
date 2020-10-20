@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Add ES configuration for Romanian.
+ *
+ * Magento uses a custom analyzer and configures it based on locale.
+ * If the core_config_data value for 'general/locale/code' is 'ro_RO', this configuration will be used.
+ * https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-lang-analyzer.html#romanian-analyzer
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
